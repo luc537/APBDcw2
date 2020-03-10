@@ -147,7 +147,7 @@ namespace Cw2
             {
                 try
                 {
-                    using (StreamWriter sw = File.AppendText(resultPath)) TODO
+                    using (StreamWriter sw = File.AppendText(resultPath)) //TODO
                     {
                         Console.WriteLine(st.ToString());
                         sw.WriteLine(st.ToString());
